@@ -43,25 +43,25 @@
 </head>
 
 <body>
-     <script type="text/javascript" charset="utf-8">
-   /* $(document).on('click', 'a[href^=http], a[href^=https]', function(e){
+     <!--<script type="text/javascript" charset="utf-8">
+    $(document).on('click', 'a[href^=http], a[href^=https]', function(e){
 
 	e.preventDefault();
 	var $this = $(this); 
 	var target = $this.data('inAppBrowser') || '_blank';
 
 	window.open($this.attr('href'), target, 'location=no');
-});*/
-    </script>
+});
+    </script>-->
 	 <script type="text/javascript" charset="utf-8">
-               document.addEventListener("deviceready", onDeviceReady, false);
+                document.addEventListener("deviceready", onDeviceReady, false);
 
                 function onDeviceReady() {
-                    /*window.location.href = 'http://swan.mk/en/login';*/
-					window.open('http://swan.mk/en/login', '_blank', 'location=no,hidden=yes,closebuttoncaption=Done,toolbar=no');
+                    window.location.href = 'http://swan.mk/en/login';
+					/*window.open('http://swan.mk/en/login', '_blank', 'location=yes,hidden=yes,closebuttoncaption=Done,toolbar=no');*/
                 }
-    </script>
-    <script type="text/javascript" src="cordova.js"></script>
+            </script>
+    <script type="text/javascript" src="../cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
