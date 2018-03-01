@@ -1,0 +1,10 @@
+{
+  "name": "Swan MK",
+  "description": "Swan, starting in 2017, to allow you to have less worry for your home or building. We are the ones who care about every detail, taking away any possible concern around the house. It is clear that every house or industrial facility requires dedication and care, therefore, Swan brings machinery, working team with experience and the best methods for maintaining and cleaning your house and with this we can say that we offer you reliable service and professional.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/logo.png"
+  },
+  "default_locale": "en",
+  "type": "privileged"
+}
